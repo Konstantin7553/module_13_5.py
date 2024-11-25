@@ -17,7 +17,7 @@ class UserState(StatesGroup):
     weight = State()  # Состояние для веса
 
 # Инициализируем бот и диспетчер
-bot = Bot(token="7828386392:AAEECiuxDgfqA6sR2QzfwSPO9IM3brkzQEE")
+bot = Bot(token="")
 dp = Dispatcher(storage=MemoryStorage())
 
 # Основная Reply-клавиатура
